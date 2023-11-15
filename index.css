@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(58, 47, 47);
+    color: whitesmoke;
+}
+
+.firstContent{
+    padding-top: 100px;
+    text-align: center;
+    place-content: center;
+}
+
+.topContent h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.topContent p{
+    font-size: 25px;
+}
+
+.dateGrid{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    column-gap: 10px;
+    padding: 20px 350px;
+}
+
+.dateGrid >div{
+    /* width: 100px; */
+    margin: 10px;
+    height: 200px;
+}
+.dateCard{
+    background-color: rgb(82, 82, 76);
+    border-top: 5px solid red;
+    display: inline-block;
+}
+
+.dateCard h2{
+    font-size: 70px;
+    margin-top: 40px;
+}
+
+.dateCard p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.subscribe h3{ 
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.subscribe input{
+    height: 50px;
+    width: 270px;
+    border: 0;
+    text-align: center;
+}
+.subscribe button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border: 0;
+}
+.mediaGrid img{
+    margin: 30px 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.secondContentGrid{
+    padding-top: 100px;
+    display: flex;
+}
+
+.topcars{
+    width: 50%;
+    padding: 20px 0px 20px 50px;
+}
+.topcars h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.topcars p{
+    font-size: 30px;
+}
+
+.ahg{
+    width: 50%;
+    padding: 20px 0px 20px 50px;
+}
+
+.ahg p{
+    padding: 10px;
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+
+.lastContenet{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    /* justify-items: center;
+    align-items: center; */
+}
+
+.contactInfo{
+    width: 60%;
+    height: 60vh;
+    margin: 10px 10% 10px 20%;
+    background-color: rgb(82, 82, 76);
+}
+
+.lecGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    padding: 25px 0 15px 35px;
+    text-align: left;
+}
+
+.lecCard{
+    display: flex;
+}
+.lecCard p{
+    margin-top: 5px;
+}
+
+.lecImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(106, 106, 103);
+
+}
+.lecCard img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    /* background-color: white; */
+}
+
+.lecInputs{
+    width: 97%;
+    /* background-color: rgb(106, 106, 103); */
+    margin: 10px;
+}
+
+.nameEmail input{ 
+    width: 342px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(106, 106, 103);
+    color: rgb(252, 243, 243);
+    padding-left: 10px;
+}
+.subject input{
+    width: 700px;
+    height: 40px;
+    border: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(106, 106, 103);
+}
+#name{
+    margin-right: 10px;
+}
+
+.message input{
+    width: 700px;
+    height: 100px;
+    margin-top: 10px;
+    border: 0;
+    background-color: rgb(106, 106, 103);
+    padding-left: 10px;
+}
+.send button{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border: 0;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer{
+    background-color: rgb(39, 35, 35);
+    height: 15vh;
+    text-align: center;
+    padding: 30px;
+}
